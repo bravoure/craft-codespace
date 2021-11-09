@@ -1,0 +1,22 @@
+dateModified: 1636491619
+email:
+  fromEmail: admin@craftcms.com
+  fromName: 'Codespace demo'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    46dc3b75-fa51-4451-a221-7007603d35bd: 'Codespace demo' # Codespace demo
+    bfab85ce-6e12-46ec-97f7-3d9a770bf83c: 'Codespace demo' # Codespace demo
+    cb2c8fe5-b56d-49c9-b4a3-643edf5e0ce5: Common # Common
+system:
+  edition: solo
+  live: true
+  name: 'Codespace demo'
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

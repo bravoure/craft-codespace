@@ -1,0 +1,8 @@
+baseUrl: '@siteUrl'
+handle: default
+hasUrls: true
+language: en-GB
+name: 'Codespace demo'
+primary: true
+siteGroup: bfab85ce-6e12-46ec-97f7-3d9a770bf83c # Codespace demo
+sortOrder: 1
