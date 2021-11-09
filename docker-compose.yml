@@ -8,13 +8,16 @@ services:
   craft:
     image: craftcms/nginx:8.0-dev
     ports:
-      - '8080:80'
+      - '8080:8080'
     volumes:
       - workspace:/app
     deploy:
       resources:
         limits:
           memory: 1024M
+    environment:
+      CODESPACES: ${CODESPACES}
+      CODESPACE_NAME: ${CODESPACE_NAME}
     logging:
       options:
         max-size: "1m"

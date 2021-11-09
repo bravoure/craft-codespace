@@ -35,6 +35,8 @@ return [
     // The secure key Craft will use for hashing and encrypting data
     'securityKey' => App::env('SECURITY_KEY'),
 
+    'useEmailAsUsername' => true,
+
     // Whether Dev Mode should be enabled (see https://craftcms.com/guides/what-dev-mode-does)
     'devMode' => $isDev,
 
