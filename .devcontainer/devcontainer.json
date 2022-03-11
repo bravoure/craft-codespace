@@ -17,5 +17,5 @@
 			"label": "Craft"
 		}
 	},
-	"onCreateCommand": "docker compose pull"
+	"onCreateCommand": "docker compose pull && cp .env.example .env && docker-compose run --rm composer composer install && docker-compose run --rm console php craft install/craft --email admin@craftcms.com --language en-GB --password password --site-name \"Codespace demo\" --site-url @siteUrl"
 }
